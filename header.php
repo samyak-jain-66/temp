@@ -92,6 +92,45 @@ if(!defined('myheader')){
               <a class="dropdown-item" href="attendance_view.php">View Attendance</a>
             </div>
         </li>
+        <li id="drop" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Vendor Payment</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="vendor_payment.php">Add Payment</a>
+              <a class="dropdown-item" href="vendor_payment_list.php">View List</a>
+            </div>
+        </li>
+        <li id="drop" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Expense Manage</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="expense.php">Add Expense</a>
+              <a class="dropdown-item" href="expense_view.php">View Expense</a>
+            </div>
+        </li>
+         <li id="drop" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fee Manage</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="fee_add.php">Add</a>
+              <a class="dropdown-item" href="fee_view.php">View</a>
+            </div>
+        </li>
+         <li id="drop" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Notice Board</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="notice.php">Add Notice</a>
+              <a class="dropdown-item" href="notice_view.php">View Notices</a>
+            </div>
+        </li>
+        <li id="drop" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Setting</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="reset.php">System Admin User</a>
+            </div>
+        </li>
     </ul>  
         <form class="form-inline my-2 my-lg-0 " action="login_configure.php" method="post">
           <button class="btn btn-danger pull-right" type="submit" value="logout" name="logout" id="logout" style="display:none">LogOut</button>
